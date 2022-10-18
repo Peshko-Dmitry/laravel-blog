@@ -1,0 +1,94 @@
+:root{
+    --color1: #f8f9fa;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,500&display=swap');
+body{
+    font-family: 'Roboto', sans-serif;
+
+}
+.my-link{
+    border-bottom:2px solid transparent ;
+    font-size: 18px;
+
+}
+.my-link:hover{
+    border-bottom:1px solid white ;
+    transition: all 0.2s ease;
+}
+.carousel-caption{
+    position: absolute;
+    bottom: 120px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.slider-btn{
+    position: absolute;
+    bottom: 15%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
+
+
+}
+.active{
+    border-bottom:2px solid white ;
+
+}
+
+.navbar-toggler{
+    font-size: 1.15rem;
+}
+.author{
+text-align: right;
+}
+.left-menu{
+    display: inline;
+    height: 100vh;
+    background-color: #005b7c;
+}
+.left-menu a {
+    display: block;
+    height: 60px;
+    width: 100%;
+    background-color: #008eab;
+    color: white;
+    font-size: 18px;
+    padding: 20px 25px 20px 40px;
+    text-decoration: none;
+    /* border-bottom: 1px solid white; */
+    margin-top: 5px;
+    
+}
+.logo{
+    text-decoration: none;
+    color: white;
+
+}
+.logo:hover{
+    color: #01bcc6;
+}
+.left-menu a:hover{
+    background-color: #01bcc6;
+} 
+.logo:hover{
+    background-color: white;
+}
+#active-link{
+    background-color: #efefee;
+    color: #005b7c;
+}
+.right-block{
+    background-color: #efefee;
+}
+.img-thumbnail{
+    max-width:40%;
+}
+
+
+
+
+
